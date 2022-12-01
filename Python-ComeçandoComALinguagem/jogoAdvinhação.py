@@ -9,6 +9,7 @@ i = 1
 while chute != numeroSorteado and i < 3:
     chute = int(input("Qual número deseja chutar agora?\n"))
     i += 1
+
 if chute != numeroSorteado:
     print("Não foi dessa vez. Tente novamente mais tarde.\n")
 elif chute == numeroSorteado:
